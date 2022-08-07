@@ -324,3 +324,56 @@
   font-size: 15;
   font-weight: bold;
 }
+
+/* Seccion del Contacto */
+
+.section1{
+  margin: 0 auto;
+}
+
+.section1__info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.section1__info-title{
+  text-align: center;
+}
+
+.section1__form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding: 1.5rem;
+  background-color: #61dafb98;
+  border-radius: 1rem;
+}
+
+/* Footer */
+.footer {
+  /* background-color: #fff; */
+  margin: 0;
+}
+
+.footer-nav {
+  background-color: rgba(240, 248, 255, 0.055);
+}
+
+.footer-nav__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 0 0;
+}
+
+.footer-nav__menu-list-container {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  list-style: none;
+}
+
+
